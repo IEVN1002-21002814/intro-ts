@@ -12,14 +12,13 @@ export class Distance{
         this.puntoy_2 = puntoy_2;
     }
 
-    presss(){
-        let dis:number = Math.sqrt(Math.pow((this.puntox_2-this.puntox_1), 2) + Math.pow((this.puntoy_2-this.puntoy_1), 2) );
-        console.log(`Distancia entre (${this.puntox_1}, ${this.puntoy_1}) 
-            y (${this.puntox_2}, ${this.puntoy_2}) es: ${dis}`);
+    presss(x1: number, y1: number, x2: number, y2: number):number{
+        return Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
+
     }
 }
 
 
 
-const distance = new Distance(1, 2, 4, 6);
-distance.presss();
+//const distance = new Distance(-4, -3, 2, 5);
+//distance.presss();
