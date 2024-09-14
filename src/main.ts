@@ -1,6 +1,6 @@
 import './style.css'
 //import './temas-ts/01-tipos-bas.ts'
-import './temas-ts/05-desestructuracion-funciones.ts'
+import './temas-ts/distanciaPuntos.ts'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
